@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    #name:hover {
+      color:red
+    }
+    #img:hover{
+      height: 400px;
+      width: 400px;
+    }
+
+    .portfolio {
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      width: 350px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+
+    .portfolio img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 2px solid #333;
+      margin-bottom: 15px;
+    }
+
+    .portfolio h1 {
+      margin: 10px 0;
+      color: #222;
+    }
+
+    .portfolio h2 {
+      font-size: 18px;
+      margin-top: 20px;
+      color: #444;
+    }
+
+    .skills, .contact {
+      list-style-type: none;
+      padding: 0;
+      margin: 10px 0;
+    }
+
+    .skills li, .contact li {
+      padding: 5px 0;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="portfolio">
+    
+    <img id="img" src="Nitish_kumar.jpeg" alt="Profile Picture">
+
+    <h1 id="name">Nitish Kumar</h1>
+
+
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li>HTML & CSS</li>
+      <li>JavaScript</li>
+      <li>Node.js,Express,React,MongoDb</li>
+      <li>Problem Solving</li>
+      <li>critical Thinking</li>
+    </ul>
+
+   
+    <h2>Contact</h2>
+    <ul class="contact">
+      <li>Email: Nitish@example.com</li>
+      <li>Phone: +91 9310327451</li>
+      <li>Location: India</li>
+    </ul>
+  </div>
+</body>
+</html>
