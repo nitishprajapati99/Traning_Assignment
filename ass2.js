@@ -10,9 +10,9 @@ function Twonum(a,b){
 //JavaScript program to check whether a number is even or odd
 function EvenOdd(b){
   if(b%2==0){
-    console.log("The nuber is even");
+    console.log("The number is even");
   }else{
-    console.log("The nuber is odd");
+    console.log("The number is odd");
   }
 }
 
