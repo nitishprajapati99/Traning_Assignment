@@ -27,8 +27,6 @@ function largenum(a,b){
 
 //JavaScript program to calculate the square of a number.
 function square(sqr){
-
-  const sqr = alert("Enter the number to square");
   console.log(`The Square of ${sqr} is ${sqr * sqr}`);
 }
   
@@ -42,10 +40,7 @@ function swap(a,b){
 }
 
 //JavaScript program to print the multiplication table of a given number.
-function factorial(fact){
-
-  let fact=5;
-  
+function factorial(fact){ 
   
   if(fact==0){
     console.log("factorial of fact is "+1);
