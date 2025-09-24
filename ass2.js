@@ -36,7 +36,7 @@ function swap(a,b){
   let c=a;
   a=b;
   b=c;
-  console.log('b '+b+' b '+b)
+  console.log('a '+a+' b '+b)
 }
 
 //JavaScript program to print the multiplication table of a given number.
